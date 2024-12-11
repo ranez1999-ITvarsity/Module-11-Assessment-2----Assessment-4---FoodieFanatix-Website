@@ -1,0 +1,119 @@
+html {
+  font-size: 14px;
+  overflow-y: auto !important;
+}
+
+body {
+  font-family: 'Indie Flower', cursive;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+body {
+  background: linear-gradient(105deg, 
+              #ffd0e0, /* Soft Pink */
+              #c3e4ff, /* Light Peach */
+              #c5ffd6, /* Mint Green */
+              #baf8ff, /* Baby Blue */
+              #feffc7  /* Warm Yellow */
+             );
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.blog-header {
+  margin-top: 10rem;
+  max-width: 700px;
+  position: relative;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #b2aa8e;
+}
+
+.carousel-caption {
+  position: relative;
+  padding: 10px 20px;
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+h1, h2, p {
+  color: white;
+  margin: 0 0 10px;
+}
+
+.text-muted {
+  color: #ddd !important;
+}
+
+.team {
+  overflow: hidden;
+  margin-bottom: 2rem;
+  white-space: normal;
+}
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 20px;
+  gap: 20px;
+}
+
+.about-mozambique {
+  flex: 1;
+  margin: 30px 30px 0;
+  font-size: 22px;
+}
+
+.food-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+  background-color: rgba(179, 170, 142, 1);
+  padding: 20px;
+}
+
+.food-paragraph {
+  flex: 1;
+  margin: 0 15px;
+}
+
+.food-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.thumbnail-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0 0;
+  padding: 10px;
+}
+
+.thumbnail {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
